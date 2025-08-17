@@ -1,9 +1,10 @@
 /* OrganizingCommittee.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 .committee-section {
   padding: 50px 20px;
   background-color: #f5f5f5; /* Light gray background for the section */
-  font-family: "Arial", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .committee-title {

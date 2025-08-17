@@ -1,6 +1,5 @@
-/* ===================
-   General About Section Styles
-   =================== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 .about-section {
   padding: 50px 5%;
   background-color: white;
@@ -34,7 +33,7 @@
 
 .about-text h2 {
   text-align: left;
-  font-family: a;
+  font-family: 'Roboto', sans-serif;
   font-size: 9vh;
   font-weight: bold;
 }
@@ -47,7 +46,7 @@
 }
 
 .about-text p {
-  font-family: var(--global_font), "Caladea", Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   line-height: 1.6;
   text-align: left;
@@ -79,7 +78,7 @@
 
 .about-ccet-content h2 {
   text-align: left;
-  font-family: a;
+  font-family: 'Roboto', sans-serif;
   font-size: 9vh;
   font-weight: bold;
   color: black;
