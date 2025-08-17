@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 .keynotePage {
     width: 100%;
     background: white !important;
@@ -35,7 +37,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 3rem;
     margin-bottom: 20px;
@@ -72,7 +74,7 @@
 
 .keynoteList {
     color: #2c3e50;
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
     list-style: none;
     font-size: 1.2rem;
     line-height: 2;
