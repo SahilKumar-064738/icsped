@@ -3,21 +3,26 @@ import styles from "./Impdate.module.css";
 
 export default function Impdate() {
   return (
-      <div className={styles.impdatePage}>
-        <h1 className={styles.impdateTitle}>IMPORTANT DATES</h1>
-        <div className={styles.impdateUnderline}></div>
-        <table className={styles.impdateTable}>
-          <tbody>
+    <div className={styles.impdatePage}>
+      <h1 className={styles.impdateTitle}>IMPORTANT DATES</h1>
+      <div className={styles.impdateUnderline}></div>
+      <table className={styles.impdateTable}>
+        <tbody>
           <tr>
             <td className={styles.bold}>Submission of Full-Length Paper</td>
-            <td>9th September, 2025</td>
+            <td>
+              <span className={styles.strike}>9th September, 2025</span>
+              <span className={styles.newDate}>30th September, 2025</span>
+            </td>
           </tr>
           <tr>
             <td className={styles.bold}>Paper Acceptance Notification</td>
             <td>9th November, 2025</td>
           </tr>
           <tr>
-            <td className={styles.bold}>Submission of Final Version of Paper</td>
+            <td className={styles.bold}>
+              Submission of Final Version of Paper
+            </td>
             <td>30th November, 2025</td>
           </tr>
           <tr>
@@ -28,8 +33,8 @@ export default function Impdate() {
             <td className={styles.bold}>Registration Deadline (Late)</td>
             <td>30th December, 2025</td>
           </tr>
-          </tbody>
-        </table>
-      </div>
+        </tbody>
+      </table>
+    </div>
   );
 }
