@@ -12,7 +12,8 @@ export default function Impdate() {
             <td className={styles.bold}>Submission of Full-Length Paper</td>
             <td>
               <span className={styles.strike}>9th September, 2025</span>
-              <span className={styles.newDate}>30th September, 2025</span>
+              <span className={styles.strike}>30th September, 2025</span>
+              <span className={styles.newDate}>10th October, 2025</span>
             </td>
           </tr>
           <tr>

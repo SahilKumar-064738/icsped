@@ -5,8 +5,9 @@
     "dates": [
       {
         "event": "Submission of Full-Length Paper",
-        "date": "9th September 2025",
-        "newDate": "30th September 2025"
+        "date1": "9th September 2025",
+        "date2": "30th September 2025",
+        "newDate": "10th October 2025"
       },
       { "event": "Paper Acceptance Notification", "date": "9th November 2025" },
       {

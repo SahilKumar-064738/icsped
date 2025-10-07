@@ -12,7 +12,8 @@ const ConferenceMarquee = () => {
         {date.event}:{" "}
         {date.newDate ? (
           <>
-            <span className="strikethrough">{date.date}</span> → {date.newDate}
+            <span className="strikethrough">{date.date1}</span> → 
+            <span className="strikethrough">{date.date2}</span> → {date.newDate}
           </>
         ) : (
           date.date
